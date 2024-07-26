@@ -1,0 +1,144 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 624px);
+  background-color: var(--light-background-color);
+  width: 1248px;
+  height: 599px;
+}
+.bookingNow {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.button {
+  position: absolute;
+  top: 503px;
+  left: 427px;
+  background-color: var(--color-darkslateblue-100);
+  width: 733px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-195xl);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--light-background-color);
+  font-family: var(--font-inter);
+}
+.bookAnAppointment {
+  position: relative;
+  line-height: 114.5%;
+  font-weight: 600;
+}
+.loremIpsumIs {
+  width: 793px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 142%;
+  color: var(--color-dimgray-100);
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.title {
+  position: absolute;
+  top: 64px;
+  left: 427px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-300);
+}
+.imageIcon {
+  position: absolute;
+  top: 38px;
+  left: 40px;
+  width: 312px;
+  height: 516px;
+  object-fit: cover;
+}
+.labelText {
+  position: absolute;
+  top: calc(50% - 19px);
+  left: calc(50% - 159px);
+  letter-spacing: 0.5px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  width: 106px;
+}
+.containerChild {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  background-color: var(--grey-line);
+  width: 350px;
+  height: 1px;
+}
+.container,
+.container1,
+.container2 {
+  position: absolute;
+  top: 185px;
+  left: 810px;
+  width: 350px;
+  height: 38px;
+}
+.container1,
+.container2 {
+  left: 427px;
+}
+.container2 {
+  top: 247px;
+}
+.labelText3 {
+  position: absolute;
+  top: calc(50% + 9.5px);
+  left: calc(50% - 184px);
+  letter-spacing: 0.5px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  width: 106px;
+}
+.frameItem {
+  position: absolute;
+  top: 346px;
+  left: 427px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--grey-line);
+  box-sizing: border-box;
+  width: 733px;
+  height: 133px;
+}
+.container3,
+.xIcon {
+  position: absolute;
+  top: 247px;
+  left: 810px;
+  width: 350px;
+  height: 38px;
+}
+.xIcon {
+  top: 38px;
+  left: 1182px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangleParent {
+  width: 1248px;
+  position: relative;
+  height: 599px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--primeraly-black);
+  font-family: var(--font-source-sans-pro);
+}
